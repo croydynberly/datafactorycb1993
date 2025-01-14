@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorycb1993"
+		},
+		"synapseworkspace93datalake_accountKey": {
+			"value": ""
+		},
+		"synapseworkspace93dedicatedpool_password": {
+			"value": ""
+		},
+		"synapseworkspace93datalake_properties_typeProperties_url": {
+			"value": "https://datalakeforsynapse93.dfs.core.windows.net/"
+		},
+		"synapseworkspace93dedicatedpool_properties_typeProperties_server": {
+			"value": "synapseworkspace93.sql.azuresynapse.net"
+		},
+		"synapseworkspace93dedicatedpool_properties_typeProperties_database": {
+			"value": "dedicatedpool"
+		},
+		"synapseworkspace93dedicatedpool_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
