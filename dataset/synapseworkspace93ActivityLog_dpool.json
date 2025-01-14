@@ -1,0 +1,61 @@
+{
+	"name": "synapseworkspace93ActivityLog_dpool",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapseworkspace93dedicatedpool",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "Correlationid",
+				"type": "varchar"
+			},
+			{
+				"name": "Operationname",
+				"type": "varchar"
+			},
+			{
+				"name": "Status",
+				"type": "varchar"
+			},
+			{
+				"name": "EventCategory",
+				"type": "varchar"
+			},
+			{
+				"name": "Level",
+				"type": "varchar"
+			},
+			{
+				"name": "Time",
+				"type": "varchar"
+			},
+			{
+				"name": "Subscription",
+				"type": "varchar"
+			},
+			{
+				"name": "EventInitiatedby",
+				"type": "varchar"
+			},
+			{
+				"name": "Resourcetype",
+				"type": "varchar"
+			},
+			{
+				"name": "Resourcegroup",
+				"type": "varchar"
+			},
+			{
+				"name": "Resource",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ActivityLog"
+		}
+	}
+}
