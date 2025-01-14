@@ -181,14 +181,16 @@
 					},
 					{
 						"name": "Time",
-						"type": "varchar"
+						"type": "datetime",
+						"precision": 23,
+						"scale": 3
 					},
 					{
 						"name": "Subscription",
 						"type": "varchar"
 					},
 					{
-						"name": "EventInitiatedby",
+						"name": "Eventinitiatedby",
 						"type": "varchar"
 					},
 					{
@@ -206,7 +208,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "ActivityLog"
+					"table": "PoolActivityLog"
 				}
 			},
 			"dependsOn": [
