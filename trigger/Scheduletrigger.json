@@ -1,0 +1,24 @@
+{
+	"name": "Scheduletrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "01-Pipeline-CSVPool",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2025-01-14T03:22:00",
+				"timeZone": "Eastern Standard Time"
+			}
+		}
+	}
+}
