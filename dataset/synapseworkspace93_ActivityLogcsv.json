@@ -47,7 +47,7 @@
 				"type": "String"
 			},
 			{
-				"name": "Eventinitiatedby",
+				"name": "EventInitiatedby",
 				"type": "String"
 			},
 			{
